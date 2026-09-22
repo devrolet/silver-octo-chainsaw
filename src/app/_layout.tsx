@@ -6,7 +6,7 @@ export default function RootLayout() {
     // Use Safe Area Provider to ensure that the app content is rendered within the safe area boundaries of a device.
     <SafeAreaProvider>
       {/* Use Safe Area View as well, a component that provides a safe area for the app content */}
-      <SafeAreaView style={{ flex: 1 }}>
+      <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
         <Stack screenOptions={{ headerShown: false }} />
       </SafeAreaView>
     </SafeAreaProvider>

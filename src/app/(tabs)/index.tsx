@@ -6,8 +6,8 @@ export default function Index() {
   return (
     <View style={styles.container}>
       {/* Links to pages */}
-      <Link href="/profile">profile</Link>
-      <Link href="/notifications">notifications</Link>
+      <Link href="/profile">Your Profile</Link>
+      <Link href="/notifications">Feed Screen In Tabs</Link>
     </View>
   );
 }
